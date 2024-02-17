@@ -8,3 +8,7 @@ html {
 
   @apply bg-zinc-200;
 }
+
+img, a, button {
+  @apply select-none;
+}

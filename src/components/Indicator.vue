@@ -28,9 +28,9 @@ function toggle() {
 </script>
 
 <template>
-  <span
+  <button
     :class="status"
-    class="inline-block size-4 transition"
+    class="inline-block size-[1.125rem] transition cursor-pointer"
     @click="toggle"
   >
     <svg
@@ -42,7 +42,7 @@ function toggle() {
     >
       <path fill="currentColor" d="M12 18a6 6 0 1 0 0-12a6 6 0 0 0 0 12Z" />
     </svg>
-  </span>
+  </button>
 </template>
 
 <style scoped>

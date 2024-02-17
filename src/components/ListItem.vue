@@ -54,8 +54,8 @@ const inputs = [
         <span v-if="date">{{ date }}</span>
       </div>
 
-      <span
-        class="inline-block size-6 flex-grow-0
+      <button
+        class="inline-block size-6 flex-grow-0 p-1
         flex-shrink-0 text-zinc-500 transition"
         :class="{ '-rotate-180': editMenuOpen }"
         @click="toggleEdit"
@@ -74,7 +74,7 @@ const inputs = [
             4.6q-.15.15-.325.213t-.375.062Z"
           />
         </svg>
-      </span>
+      </button>
     </div>
 
     <Transition
